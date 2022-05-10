@@ -1,13 +1,13 @@
 {
   "name": "seltadelauncher",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "productName": "Seltade Launcher",
   "description": "Launcher du serveur Pixelmon",
   "author": "Daniel Scalzi (https://github.com/dscalzi/) | Hope (https://github.com/rhenar0)",
   "license": "MIT",
-  "homepage": "https://github.com/rhenar0",
+  "homepage": "https://github.com/rhenar0/Pokemon-R-ves-et-Cauchemars/",
   "bugs": {
-    "url": "https://github.com/rhenar0"
+    "url": "https://github.com/rhenar0/Pokemon-R-ves-et-Cauchemars/issues"
   },
   "private": true,
   "main": "index.js",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/rhenar0/Pokemon-R-ves-et-Cauchemars.git"
   }
 }
