@@ -50,7 +50,7 @@ function initAutoUpdater(event, data) {
 ipcMain.on('autoUpdateAction', (event, arg, data) => {
     switch(arg){
         case 'initAutoUpdater':
-            console.log('Initializing auto updater.')
+            {}
             initAutoUpdater(event, data)
             event.sender.send('autoUpdateNotification', 'ready')
             break
@@ -76,7 +76,7 @@ ipcMain.on('autoUpdateAction', (event, arg, data) => {
             autoUpdater.quitAndInstall()
             break
         default:
-            console.log('Unknown argument', arg)
+            {}
             break
     }
 })
