@@ -63,7 +63,7 @@ ipcMain.on('autoUpdateAction', (event, arg, data) => {
         case 'allowPrereleaseChange':
             if(!data){
                 const preRelComp = semver.prerelease(app.getVersion())
-                if(preRelComp != null && preRelComp.length > 0){
+                if(preRelComp !== null && preRelComp.length > 0){
                     autoUpdater.allowPrerelease = true
                 } else {
                     autoUpdater.allowPrerelease = data
